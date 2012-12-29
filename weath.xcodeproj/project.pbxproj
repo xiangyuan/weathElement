@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14772826168D775300453DB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14772825168D775300453DB7 /* UIKit.framework */; };
+		14772828168D775300453DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14772827168D775300453DB7 /* Foundation.framework */; };
+		1477282A168D775300453DB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14772829168D775300453DB7 /* CoreGraphics.framework */; };
+		14772830168D775300453DB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1477282E168D775300453DB7 /* InfoPlist.strings */; };
+		14772832168D775300453DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14772831168D775300453DB7 /* main.m */; };
+		14772836168D775300453DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14772835168D775300453DB7 /* AppDelegate.m */; };
+		14772838168D775300453DB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 14772837168D775300453DB7 /* Default.png */; };
+		1477283A168D775300453DB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14772839168D775300453DB7 /* Default@2x.png */; };
+		1477283C168D775300453DB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1477283B168D775300453DB7 /* Default-568h@2x.png */; };
+		1477283F168D775300453DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1477283E168D775300453DB7 /* ViewController.m */; };
+		14772842168D775300453DB7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14772840168D775300453DB7 /* ViewController.xib */; };
+		1477284A168D776900453DB7 /* LYWeathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14772849168D776900453DB7 /* LYWeathView.m */; };
+		14772853168D784B00453DB7 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1477284E168D784B00453DB7 /* EGOImageLoadConnection.m */; };
+		14772854168D784B00453DB7 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 14772850168D784B00453DB7 /* EGOImageLoader.m */; };
+		14772855168D784B00453DB7 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14772852168D784B00453DB7 /* EGOImageView.m */; };
+		14772856168D785900453DB7 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1477284C168D783900453DB7 /* EGOCache.m */; };
+		14772859168D78A900453DB7 /* WeathVo.m in Sources */ = {isa = PBXBuildFile; fileRef = 14772858168D78A900453DB7 /* WeathVo.m */; };
+		1477285C168D845400453DB7 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1477285B168D845400453DB7 /* JSONKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14772821168D775300453DB7 /* weath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14772825168D775300453DB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14772827168D775300453DB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14772829168D775300453DB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1477282D168D775300453DB7 /* weath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weath-Info.plist"; sourceTree = "<group>"; };
+		1477282F168D775300453DB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14772831168D775300453DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14772833168D775300453DB7 /* weath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weath-Prefix.pch"; sourceTree = "<group>"; };
+		14772834168D775300453DB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14772835168D775300453DB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14772837168D775300453DB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		14772839168D775300453DB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1477283B168D775300453DB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1477283D168D775300453DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1477283E168D775300453DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14772841168D775300453DB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		14772848168D776900453DB7 /* LYWeathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYWeathView.h; sourceTree = "<group>"; };
+		14772849168D776900453DB7 /* LYWeathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWeathView.m; sourceTree = "<group>"; };
+		1477284B168D783900453DB7 /* EGOCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		1477284C168D783900453DB7 /* EGOCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		1477284D168D784B00453DB7 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		1477284E168D784B00453DB7 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		1477284F168D784B00453DB7 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		14772850168D784B00453DB7 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		14772851168D784B00453DB7 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		14772852168D784B00453DB7 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		14772857168D78A900453DB7 /* WeathVo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeathVo.h; sourceTree = "<group>"; };
+		14772858168D78A900453DB7 /* WeathVo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeathVo.m; sourceTree = "<group>"; };
+		1477285A168D845400453DB7 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1477285B168D845400453DB7 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1477281E168D775300453DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14772826168D775300453DB7 /* UIKit.framework in Frameworks */,
+				14772828168D775300453DB7 /* Foundation.framework in Frameworks */,
+				1477282A168D775300453DB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14772816168D775300453DB7 = {
+			isa = PBXGroup;
+			children = (
+				1477282B168D775300453DB7 /* weath */,
+				14772824168D775300453DB7 /* Frameworks */,
+				14772822168D775300453DB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14772822168D775300453DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14772821168D775300453DB7 /* weath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14772824168D775300453DB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14772825168D775300453DB7 /* UIKit.framework */,
+				14772827168D775300453DB7 /* Foundation.framework */,
+				14772829168D775300453DB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1477282B168D775300453DB7 /* weath */ = {
+			isa = PBXGroup;
+			children = (
+				1477285A168D845400453DB7 /* JSONKit.h */,
+				1477285B168D845400453DB7 /* JSONKit.m */,
+				1477284D168D784B00453DB7 /* EGOImageLoadConnection.h */,
+				1477284E168D784B00453DB7 /* EGOImageLoadConnection.m */,
+				1477284F168D784B00453DB7 /* EGOImageLoader.h */,
+				14772850168D784B00453DB7 /* EGOImageLoader.m */,
+				14772851168D784B00453DB7 /* EGOImageView.h */,
+				14772852168D784B00453DB7 /* EGOImageView.m */,
+				1477284B168D783900453DB7 /* EGOCache.h */,
+				1477284C168D783900453DB7 /* EGOCache.m */,
+				14772834168D775300453DB7 /* AppDelegate.h */,
+				14772835168D775300453DB7 /* AppDelegate.m */,
+				1477283D168D775300453DB7 /* ViewController.h */,
+				1477283E168D775300453DB7 /* ViewController.m */,
+				14772840168D775300453DB7 /* ViewController.xib */,
+				1477282C168D775300453DB7 /* Supporting Files */,
+				14772848168D776900453DB7 /* LYWeathView.h */,
+				14772849168D776900453DB7 /* LYWeathView.m */,
+				14772857168D78A900453DB7 /* WeathVo.h */,
+				14772858168D78A900453DB7 /* WeathVo.m */,
+			);
+			path = weath;
+			sourceTree = "<group>";
+		};
+		1477282C168D775300453DB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1477282D168D775300453DB7 /* weath-Info.plist */,
+				1477282E168D775300453DB7 /* InfoPlist.strings */,
+				14772831168D775300453DB7 /* main.m */,
+				14772833168D775300453DB7 /* weath-Prefix.pch */,
+				14772837168D775300453DB7 /* Default.png */,
+				14772839168D775300453DB7 /* Default@2x.png */,
+				1477283B168D775300453DB7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14772820168D775300453DB7 /* weath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14772845168D775300453DB7 /* Build configuration list for PBXNativeTarget "weath" */;
+			buildPhases = (
+				1477281D168D775300453DB7 /* Sources */,
+				1477281E168D775300453DB7 /* Frameworks */,
+				1477281F168D775300453DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weath;
+			productName = weath;
+			productReference = 14772821168D775300453DB7 /* weath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14772818168D775300453DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.coamee;
+			};
+			buildConfigurationList = 1477281B168D775300453DB7 /* Build configuration list for PBXProject "weath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14772816168D775300453DB7;
+			productRefGroup = 14772822168D775300453DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14772820168D775300453DB7 /* weath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1477281F168D775300453DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14772830168D775300453DB7 /* InfoPlist.strings in Resources */,
+				14772838168D775300453DB7 /* Default.png in Resources */,
+				1477283A168D775300453DB7 /* Default@2x.png in Resources */,
+				1477283C168D775300453DB7 /* Default-568h@2x.png in Resources */,
+				14772842168D775300453DB7 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1477281D168D775300453DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14772856168D785900453DB7 /* EGOCache.m in Sources */,
+				14772832168D775300453DB7 /* main.m in Sources */,
+				14772836168D775300453DB7 /* AppDelegate.m in Sources */,
+				1477283F168D775300453DB7 /* ViewController.m in Sources */,
+				1477284A168D776900453DB7 /* LYWeathView.m in Sources */,
+				14772853168D784B00453DB7 /* EGOImageLoadConnection.m in Sources */,
+				14772854168D784B00453DB7 /* EGOImageLoader.m in Sources */,
+				14772855168D784B00453DB7 /* EGOImageView.m in Sources */,
+				14772859168D78A900453DB7 /* WeathVo.m in Sources */,
+				1477285C168D845400453DB7 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1477282E168D775300453DB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1477282F168D775300453DB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14772840168D775300453DB7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14772841168D775300453DB7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14772843168D775300453DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14772844168D775300453DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14772846168D775300453DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weath/weath-Prefix.pch";
+				INFOPLIST_FILE = "weath/weath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14772847168D775300453DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weath/weath-Prefix.pch";
+				INFOPLIST_FILE = "weath/weath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1477281B168D775300453DB7 /* Build configuration list for PBXProject "weath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14772843168D775300453DB7 /* Debug */,
+				14772844168D775300453DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14772845168D775300453DB7 /* Build configuration list for PBXNativeTarget "weath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14772846168D775300453DB7 /* Debug */,
+				14772847168D775300453DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14772818168D775300453DB7 /* Project object */;
+}
